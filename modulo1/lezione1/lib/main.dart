@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'pages/home_page.dart';
-import 'pages/sliver_app_bar_page.dart';
+import 'page/sliver_app_bar_page.dart';
 
 void main() {
   runApp(const App());
