@@ -1,0 +1,4 @@
+enum SliverShowDisplayMode {
+  list,
+  grid,
+}
