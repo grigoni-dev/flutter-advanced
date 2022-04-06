@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "lezione3",
+            "cwd": "lezione3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lezione3 (profile mode)",
+            "cwd": "lezione3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lezione3 (release mode)",
+            "cwd": "lezione3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "progetto3",
+            "cwd": "progetto3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "progetto3 (profile mode)",
+            "cwd": "progetto3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "progetto3 (release mode)",
+            "cwd": "progetto3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
