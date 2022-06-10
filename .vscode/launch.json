@@ -1,0 +1,148 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "lezione1",
+            "cwd": "modulo1/lezione1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lezione1 (profile mode)",
+            "cwd": "modulo1/lezione1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lezione1 (release mode)",
+            "cwd": "modulo1/lezione1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "progetto1",
+            "cwd": "modulo1/progetto1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "progetto1 (profile mode)",
+            "cwd": "modulo1/progetto1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "progetto1 (release mode)",
+            "cwd": "modulo1/progetto1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "lezione2",
+            "cwd": "modulo2/lezione2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lezione2 (profile mode)",
+            "cwd": "modulo2/lezione2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lezione2 (release mode)",
+            "cwd": "modulo2/lezione2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "progetto2",
+            "cwd": "modulo2/progetto2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "progetto2 (profile mode)",
+            "cwd": "modulo2/progetto2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "progetto2 (release mode)",
+            "cwd": "modulo2/progetto2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "lezione3",
+            "cwd": "modulo3/lezione3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lezione3 (profile mode)",
+            "cwd": "modulo3/lezione3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lezione3 (release mode)",
+            "cwd": "modulo3/lezione3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "progetto3",
+            "cwd": "modulo3/progetto3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "progetto3 (profile mode)",
+            "cwd": "modulo3/progetto3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "progetto3 (release mode)",
+            "cwd": "modulo3/progetto3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "lezione4",
+            "cwd": "modulo4/lezione4",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lezione4 (profile mode)",
+            "cwd": "modulo4/lezione4",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lezione4 (release mode)",
+            "cwd": "modulo4/lezione4",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

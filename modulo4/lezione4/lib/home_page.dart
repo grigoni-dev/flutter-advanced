@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -20,9 +21,9 @@ class _HomePageState extends State<HomePage> {
           children: [
             TextButton(
                 onPressed: () async {
-                  final url = "https://www.google.com";
-                  if (await canLaunch(url)) {
-                    launch(url);
+                  const url = "https://www.google.com";
+                  if (await canLaunchUrlString(url)) {
+                    launchUrlString(url);
                   }
                 },
                 child: Text("Apri link")),
@@ -31,9 +32,9 @@ class _HomePageState extends State<HomePage> {
             ),
             TextButton(
                 onPressed: () async {
-                  final url = "https://www.google.com";
-                  if (await canLaunch(url)) {
-                    launch(url);
+                  const url = "tel:3491337819";
+                  if (await canLaunchUrlString(url)) {
+                    launchUrlString(url);
                   }
                 },
                 child: Text("Effettua Chiamata")),
@@ -42,9 +43,9 @@ class _HomePageState extends State<HomePage> {
             ),
             TextButton(
                 onPressed: () async {
-                  final url = "https://www.google.com";
-                  if (await canLaunch(url)) {
-                    launch(url);
+                  const url = "https://www.google.com";
+                  if (await canLaunchUrlString(url)) {
+                    launchUrlString(url);
                   }
                 },
                 child: Text("Invia SMS")),
@@ -53,10 +54,11 @@ class _HomePageState extends State<HomePage> {
             ),
             TextButton(
                 onPressed: () async {
-                  final url = "https://www.google.com";
-                  if (await canLaunch(url)) {
-                    launch(url);
-                  }
+                  final Uri emailLaunchUri = Uri(
+                    scheme: 'mailto',
+                    path: 'giovanni.rigoni@smartmobile.it',
+                  );
+                  await launchUrl(emailLaunchUri);
                 },
                 child: Text("Invia Mail")),
           ],
